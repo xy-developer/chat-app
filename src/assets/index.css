@@ -1,0 +1,22 @@
+html,body{
+    background-color: #FAF9F4;
+    scroll-behavior: smooth;
+}
+
+.group-avatar{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    object-fit: cover;
+    align-items: center;
+    margin-right: 10px;
+}
+.group-avatar > img{
+    width: 30px;
+    height: 30px;
+}
