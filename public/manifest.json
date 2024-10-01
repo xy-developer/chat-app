@@ -1,49 +1,12 @@
 {
-    "short_name": "Momento",
-    "name": "Momento: Share Moment",
+    "short_name": "chat App",
+    "name": "chat App: connect and share Moment",
     "categories": [
-        "Photography",
-        "nature",
-        "Others"
+        "talk",
+        "connect",
+        "discuss"
         ],
-    "description": "Post photos , Comment Download and share with the world.",
-    "screenshots": [
-        {
-        "src": "https://todoly1.netlify.app/img/music.png",
-        "sizes": "586x1041",
-        "type": "image/png"
-        },
-        {
-        "src": "https://todoly1.netlify.app/img/game.png",
-        "sizes": "586x1041",
-        "type": "image/png"
-        },
-        {
-        "src": "https://todoly1.netlify.app/img/todoly-lite-download.png",
-        "sizes": "586x1041",
-        "type": "image/png"
-        },
-        {
-        "src": "https://todoly1.netlify.app/img/todoly-lite.png",
-        "sizes": "586x1041",
-        "type": "image/png"
-        },
-        {
-        "src": "https://todoly1.netlify.app/img/todoly-track.png",
-        "sizes": "586x1041",
-        "type": "image/png"
-        },
-        {
-        "src": "https://todoly1.netlify.app/img/todoly-share.png",
-        "sizes": "586x1041",
-        "type": "image/png"
-        },
-        {
-        "src": "https://todoly1.netlify.app/img/todoly-pdf.png",
-        "sizes": "586x1041",
-        "type": "image/png"
-        }
-        ],
+    "description": "Chat App.",
     "share_target": {
             "action": "/share-todo",
             "method": "POST",
@@ -54,40 +17,12 @@
             "utl": "link",
             "files": [
             {
-            "name": "todo-list",
+            "name": "chat-app",
             "accept": "image/png"
             }
             ]
             }
     },
-    "shortcuts": [
-        {
-        "name": "Post",
-        "short_name": "Post",
-        "description": "Post Your moment",
-        "url": "/create-pin?utm_source=jumplist&utm_medium=shortcut",
-        "icons": [
-        {
-        "src": "https://todoly1.netlify.app/icons/feed.png",
-        "type": "image/png",
-        "sizes": "192x192"
-        }
-        ]
-        },
-        {
-            "name": "Home",
-            "short_name": "Home",
-            "description": "Go to Home",
-            "url": "/?utm_source=jumplist&utm_medium=shortcut",
-            "icons": [
-            {
-            "src": "https://todoly1.netlify.app/icons/edit.png",
-            "type": "image/png",
-            "sizes": "192x192"
-            }
-            ]
-            }
-            ],
     "orientation": "portrait",
     "id": "/?home=true",
     "launch_handler": {
